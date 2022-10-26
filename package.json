@@ -3,8 +3,9 @@
   "version": "1.0.0",
   "description": "node js start project",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node start.js"
   },
   "repository": {
     "type": "git",
@@ -20,7 +21,10 @@
     "url": "https://github.com/furikuuuri/nodejs-start/issues"
   },
   "homepage": "https://github.com/furikuuuri/nodejs-start#readme",
-  "dependencies": {
+  "devDependencies": {
     "chalk": "^5.1.2"
+  },
+  "dependencies": {
+    "cross-env": "^7.0.3"
   }
 }

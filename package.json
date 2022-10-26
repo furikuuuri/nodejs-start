@@ -1,0 +1,26 @@
+{
+  "name": "node-start",
+  "version": "1.0.0",
+  "description": "node js start project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/furikuuuri/nodejs-start.git"
+  },
+  "keywords": [
+    "node",
+    "nodejs"
+  ],
+  "author": "max <maxim03nock@mail.ru>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/furikuuuri/nodejs-start/issues"
+  },
+  "homepage": "https://github.com/furikuuuri/nodejs-start#readme",
+  "dependencies": {
+    "chalk": "^5.1.2"
+  }
+}
